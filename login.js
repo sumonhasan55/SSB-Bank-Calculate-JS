@@ -7,10 +7,9 @@ document.getElementById('login-button').addEventListener('click', function () {
     const password = Passwordfield.value;
 
     if (email ==='wubsumon7577@gmail.com' && password === 'secret') {
-        console.log('vaild user')
-        
+        window.location.href = 'bank.html'
     } else {
-        console.log('invaild user')
+       alert('Invaild Email Or Password! Plz try Again...')
         
     }
 
